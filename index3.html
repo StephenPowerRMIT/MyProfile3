@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Blog Page</title>
+	<link href="index3CSS.css" type="text/css" rel="stylesheet" />
+
+<style>
+
+
+.navbar {
+	text-align:center;
+	width:100%;
+	background:purple;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+ul {
+	text-align:left;
+	display:inline;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+ul li {
+	font:bold 12px/18px sans-serif;
+	display:inline-block;
+	position:relative;
+	padding:25px 20px;
+	background:#6699ccc;
+}
+ul li a {
+	text-decoration:none;
+	padding:25px 20px;
+	color:white;
+	font-size:18px;
+}
+ul li:hover {
+	background:#4dd0e1;
+	color:white;
+}
+ul li ul {
+	padding:0;
+	position:absolute;
+	top:70px;
+	left:0;
+	width:250px;
+	display:none;
+	visibility:hidden;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+ul li ul li {
+	background:#00acc1;
+	display:block;
+}
+ul li ul li:hover {
+	background:#4dd0e1;
+}
+ul li:hover ul {
+	display:block;
+	opacity:1;
+	visibility:visible;
+}
+ul ul ul li {
+	display:none;
+}
+ul ul li:hover li {
+	display:block;
+}
+ul ul ul {
+	left:100%;
+	top:0;
+
+
+</style>
+
+<style type="text/css">
+#wrap {
+	width:150px;
+}
+.left {
+	width:140px;
+	background-color:green;
+	height:123px;
+	float:left;
+}
+.middle {
+	width:140px;
+	background-color:yellow;
+	height:423px;
+	float:middle;
+	position:relative;
+	left:140px;
+}
+.righ {
+	width:140px;
+	background-color:#00d;
+	height:123px;
+	float:right;
+	position:relative;
+	left:280px;
+	bottom:423px;
+}
+
+</style>
+
+<style type="text/css">
+	h1{color:blue;
+	}
+	h2{color:blue;
+	}
+	</style>
+</head>
+
+<body>
+
+		<div class ="navbar" id="navbar">
+	<ul>
+		<li><a href="index.html"> Home</a></li>
+		
+		
+		<li><a href="#"> Social</a>
+			<ul>
+				<li><a href="https://www.facebook.com/home.php?ref=wizard"> Facebook</a></li>
+				<li><a href="#"> Twitter</a></li>
+				<li><a href="https://www.youtube.com/"> You Tube</a></li>
+				<li><a href="https://www.linkedin.com/onboarding/start/profile-location/new/"> LinkedIn</a></li>
+			</ul>
+		</li>
+			
+		
+			
+		
+		<li><a href="index.html#My Profile"> Contact</a></li>
+	</ul>
+		
+
+</div> 
+
+<div id="wrap">
+	<div class="left"></div>
+	<div class="middle"></div>
+</div>
+	
+<div align="center">
+<h1><strong><em>My Blog</em></strong></h1>
+<h2><strong>"Launches April"</strong></h2>
+</div>
+
+</body>
+</html>
